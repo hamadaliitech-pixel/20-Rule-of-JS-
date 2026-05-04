@@ -1,0 +1,48 @@
+ 1Array loops::{
+
+
+For Loop
+let ar = [1,2,3,4,5]
+for(let i = 0; i < ar.length; i++) {
+ console.log(i);
+}
+   For.of loop
+let ary = [1, 2, 3, 4, 5];
+for (const ar of ary) {
+  console.log(ar);   //this will print all the values in the array
+}
+
+For.each loop
+let Arr = [1, 2, 3, 4, 5];
+Arr.forEach(function(params) {
+    console.log(params);
+})
+
+ }
+
+ ----------
+ For.in loop
+ let arr = [1, 2, 3, 4];
+ for (const key in arr) {
+   console.log(key);  //this will print index of arr
+ }
+
+
+
+this is power sum:
+
+
+
+this is loops:
+// let input = Number(prompt('Only Binary:'))
+
+// if(/^[01]{1,10}$/.test(input)){
+
+//   console.log(input);
+
+  
+
+// // console.log('bin:',input);
+// }else{
+//   console.log('not bin');
+// }
