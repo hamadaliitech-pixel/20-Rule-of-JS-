@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: sandybrown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  background: bisque;
+  padding: 0px 0px 10px 0px;
+  width: 80vw;
+  border-radius: 20px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header {
+  background: rgb(254, 207, 149);
+  border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+.main-content{
+    padding: 10px;
+}
+
+.footer{
+    padding: 10px;
+}
